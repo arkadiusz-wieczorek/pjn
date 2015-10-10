@@ -1,0 +1,977 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"hang",
+				"handleMethodChange"
+			],
+			[
+				"loa",
+				"loadOptionsToSelect"
+			],
+			[
+				"opt",
+				"options"
+			],
+			[
+				"sle",
+				"select"
+			],
+			[
+				"re",
+				"resource_id"
+			],
+			[
+				"res",
+				"resource_type_name"
+			],
+			[
+				"rea",
+				"reaction"
+			],
+			[
+				"ne",
+				"needs_field_values"
+			],
+			[
+				"des",
+				"description"
+			],
+			[
+				"Res",
+				"RestHandler_method"
+			],
+			[
+				"resource_type_i",
+				"resource_type_options"
+			],
+			[
+				"reso",
+				"resource_type"
+			],
+			[
+				"han",
+				"handleChangeFromSelect"
+			],
+			[
+				"o",
+				"option"
+			],
+			[
+				"pad",
+				"padding-bottom"
+			],
+			[
+				"link",
+				"link_to_theme"
+			],
+			[
+				"sto",
+				"storeSelectedTheme"
+			],
+			[
+				"Syn",
+				"SyntaxChanger"
+			],
+			[
+				"Sto",
+				"SyntaxStore"
+			],
+			[
+				"em",
+				"emit"
+			],
+			[
+				"lsat",
+				"last_choosen_syntax"
+			],
+			[
+				"respon",
+				"response_url"
+			],
+			[
+				"me",
+				"method"
+			],
+			[
+				"ret",
+				"returnUrl"
+			],
+			[
+				"se",
+				"sendRequest"
+			],
+			[
+				"for",
+				"fori	JS - For In loop"
+			],
+			[
+				"file",
+				"field"
+			],
+			[
+				"fil",
+				"field_name"
+			],
+			[
+				"fie",
+				"field_name"
+			],
+			[
+				"resou",
+				"resource_type"
+			],
+			[
+				"dec",
+				"description"
+			],
+			[
+				"req",
+				"require"
+			],
+			[
+				"fiel",
+				"field"
+			],
+			[
+				"fi",
+				"fields"
+			],
+			[
+				"get",
+				"getParams"
+			],
+			[
+				"stat",
+				"status"
+			],
+			[
+				"sta",
+				"statusText"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
+				"cw",
+				"cwr	React: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"str",
+				"structure"
+			],
+			[
+				"S",
+				"Sealious"
+			],
+			[
+				"Re",
+				"RestHandler_get"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"resor",
+				"resource_type_description"
+			],
+			[
+				"resr",
+				"resource_name"
+			],
+			[
+				"R",
+				"RouteHandler"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"c",
+				"console	console.log()"
+			],
+			[
+				"ge",
+				"getOnChoosenResource"
+			],
+			[
+				"load",
+				"loaded_data"
+			],
+			[
+				"la",
+				"loaded_data"
+			],
+			[
+				"comp",
+				"componentWillReceiveProps"
+			],
+			[
+				"com",
+				"componentWillUpdate"
+			],
+			[
+				"reo",
+				"resource_content"
+			],
+			[
+				"resource",
+				"resource_body"
+			],
+			[
+				"compin",
+				"componentDidMount"
+			],
+			[
+				"de",
+				"devlistnum"
+			],
+			[
+				"dev",
+				"dev_id"
+			],
+			[
+				"dev_",
+				"dev_100001"
+			],
+			[
+				"u",
+				"unique_url_dist"
+			],
+			[
+				"URLd",
+				"URLdist"
+			],
+			[
+				"pack",
+				"package_json"
+			],
+			[
+				"pac",
+				"package_json"
+			],
+			[
+				"pa",
+				"package_json"
+			],
+			[
+				"wi",
+				"with_validators"
+			],
+			[
+				"hu",
+				"human_readable_description"
+			],
+			[
+				"he",
+				"human_readable_description"
+			],
+			[
+				"si",
+				"signatures"
+			],
+			[
+				"pat",
+				"path"
+			],
+			[
+				"a",
+				"add_path"
+			],
+			[
+				"Ch",
+				"ChipManager"
+			],
+			[
+				"www",
+				"www_server"
+			],
+			[
+				"value",
+				"value_in_code"
+			],
+			[
+				"neve",
+				"never_fails"
+			],
+			[
+				"is",
+				"is_proper_value"
+			],
+			[
+				"CHi",
+				"ChipTypes"
+			],
+			[
+				"alwa",
+				"always_fails"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Chip",
+				"ChipTypes"
+			],
+			[
+				"us",
+				"uses_context"
+			],
+			[
+				"Fi",
+				"FieldType"
+			],
+			[
+				"Fiel",
+				"FieldFileType"
+			],
+			[
+				"in",
+				"inherit_from"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"tex",
+				"text_with_number"
+			],
+			[
+				"fe",
+				"field_type"
+			],
+			[
+				"field",
+				"field_type"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"p",
+				"padding-top"
+			],
+			[
+				"sea",
+				"seal_spinner"
+			],
+			[
+				"transle",
+				"translateZ"
+			],
+			[
+				"tr",
+				"translateY"
+			],
+			[
+				"ba",
+				"background-clip"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"respone",
+				"returnResponseText"
+			],
+			[
+				"cal",
+				"callback2"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"bac",
+				"background-origin"
+			],
+			[
+				"toc",
+				"tocHTML"
+			],
+			[
+				"html",
+				"html_toc"
+			],
+			[
+				"ht",
+				"html_toc"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"crea",
+				"createTableOfContents"
+			],
+			[
+				"ren",
+				"renderer"
+			],
+			[
+				"hi",
+				"highlightAuto"
+			],
+			[
+				"ru",
+				"returnNumberMinor"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"ine",
+				"inline-block"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"ind",
+				"indexOf"
+			],
+			[
+				"tag",
+				"tag_list"
+			],
+			[
+				"min",
+				"minor_tag_list"
+			],
+			[
+				"getD",
+				"getDocumentation"
+			],
+			[
+				"par",
+				"parseMarkdownToHtml"
+			],
+			[
+				"selec",
+				"selected_version"
+			],
+			[
+				"url",
+				"url_to_choosen_documentation"
+			],
+			[
+				"url_to",
+				"url_to_documentation"
+			],
+			[
+				"url_",
+				"url_to_documentation"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"lin",
+				"line-height"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fon",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "ja",
+		"selected_items":
+		[
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"j",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Discover Packages"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"jsx",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"react",
+				"Snippet: React: this.refs."
+			],
+			[
+				"scs",
+				"Set Syntax: CSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/arkadiusz/Documents/DPJN"
+	],
+	"file_history":
+	[
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/rest-handler-method.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/app.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/utils.js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/select-action.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/resource-type.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/non-param-form.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/single-form.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/navigation.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/routes.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/syntax-changer.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/output.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/public/index.html",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/stores/syntax-store.js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/formrow.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/public/css/responsive.css",
+		"/home/arkadiusz/Desktop/wifi.sh",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/package.json",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/stores/store.js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/public/_index.html",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/public/css/highlight/ir_black.css",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/build.sh",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/docs-web.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/hello-world/package.json",
+		"/home/arkadiusz/Projects/hello-world/package.json",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/public/index.html",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/app.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/resource-type.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/rest-handler-method.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/navigation.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/output.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/public/css/responsive.css",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/routes.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/_index.html",
+		"/home/arkadiusz/Desktop/SealiousReact/SealiousReact/index.html",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/modules/description-provider.js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/form.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/formrow.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/modules/store.js",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/rest-container.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/rest-handler-get.jsx",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/rest-handler-get",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/rest-handler.jsx",
+		"/home/arkadiusz/Desktop/rest_app",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/jsfmt.sublime-settings",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/define/src/js/components/main-view.jsx",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/arkadiusz/Projects/roqad-ppb2015/.git/MERGE_MSG",
+		"/home/arkadiusz/Projects/roqad-ppb2015/2.1 Arkadiusz Cartesian Product/output",
+		"/home/arkadiusz/Projects/roqad-ppb2015/2.1 Arkadiusz Cartesian Product/cartesian_product.py",
+		"/home/arkadiusz/Projects/roqad-ppb2015/2.1 Arkadiusz Cartesian Product/devices_list.csv",
+		"/home/arkadiusz/Projects/roqad-ppb2015/2.1 Arkadiusz Cartesian Product/devices_by_ip.py",
+		"/home/arkadiusz/Projects/roqad-ppb2015/2.1 Arkadiusz Cartesian Product/devices_by_ip.csv"
+	],
+	"find":
+	{
+		"height": 38.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"handleMet",
+			"select_div",
+			"\" :",
+			"\" ",
+			"id:",
+			"e",
+			"reaction",
+			"obj",
+			"getParams",
+			"this.getParams().resource_type_name",
+			"http_method",
+			"\"GET\"",
+			"GET",
+			"get",
+			"GET",
+			"v1",
+			"\">",
+			"\"",
+			"			\"",
+			"<option value",
+			"option",
+			"get",
+			"margin",
+			"h2",
+			"*",
+			"-",
+			"arkadiusz",
+			"option",
+			"onChange",
+			"selectSyntax",
+			"> ",
+			" ",
+			" </",
+			" ",
+			"agate",
+			"css",
+			"11",
+			"rwxrwxr",
+			"11",
+			"Sep",
+			"arkadiusz",
+			"dzię",
+			"transition",
+			"font-size",
+			"navigation",
+			"content",
+			"pre",
+			"height",
+			"content",
+			"navigation",
+			"app",
+			"span",
+			"pre",
+			"row",
+			"table",
+			"props",
+			"field",
+			"fields",
+			"resource_name",
+			"data",
+			"div",
+			"Store",
+			"store",
+			"Store",
+			"Provider",
+			"Store",
+			"storeResponse",
+			"						<",
+			"getBody",
+			"resource_content",
+			"get",
+			"v1",
+			"resource",
+			"rest-handler-method",
+			"RestHandler",
+			"r.",
+			".",
+			"get",
+			"--- ",
+			"---",
+			"getBody",
+			"testFunc",
+			"getBody",
+			"structure",
+			"getBody",
+			"li",
+			"resources",
+			"id",
+			"loaded_data",
+			"ul",
+			"pre",
+			"br",
+			"span",
+			"</span>",
+			"<br />",
+			"[i]",
+			"loaded_data",
+			"div",
+			"stringify",
+			"results",
+			"div",
+			"result",
+			"ul",
+			"parse",
+			"result",
+			"results",
+			"resource_type",
+			"resource_type_description",
+			"resource_body",
+			"li",
+			"<li>",
+			"li",
+			"span",
+			"div",
+			"console",
+			".name",
+			"name",
+			"structure",
+			"Structure",
+			"structure",
+			"resource",
+			"a",
+			"devices",
+			"dev_",
+			",",
+			"device_id",
+			"user_id",
+			"second_part_domain"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			";\n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dpjn.sublime-project",
+	"replace":
+	{
+		"height": 72.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"app.jsx",
+				"Sealious-development/sealious-channel-rest/docs/lib/components/app.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/sealious-github-io.sublime-project"
+			],
+			[
+				"sealhu",
+				"~/Projects/sealhub.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1051.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 192.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
