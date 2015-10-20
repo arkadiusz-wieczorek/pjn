@@ -1,0 +1,113 @@
+
+
+
+
+Zadanie 1 (10 pkt)
+
+Napisz program freq_words.py który zlicza liczbę wystąpień słów w tekście. Program powinien czytać dowolny tekst ze standardowego wejścia i wypisywać na standardowym wyjściu listę składającą się z par 'liczba wystąpień' i 'słowo' oddzielone znakiem tabulacji. Lista wynikowa powinna być posortowana po liczbie wystąpień. Słowa należy normalizować względem wielkości liter. Które 10 słów najczęściej występuje w Baśniach Braci Grimm?
+
+cat grimms.txt | python freq_words.py | head
+
+
+
+
+
+Zadanie 2 (10 pkt)
+
+Napisz program ngrams.py do generowania wszystkich n-gramów słów z podanego na standardowym wejściu stokenizowanego tekstu. N-gramem nazywamy ciąg występujących po sobie słów długości n. Program powinien wypisywać jeden n-gram w jendej linii wyjścia. Wartość n powinna być przyjmowana jako argument programu (domyślnie 3).
+
+cat grimms.txt | python ngrams.py 3
+
+
+
+
+
+Zadanie 3 (10 pkt)
+
+Napisz program concordance.py, który wyszuka wszystkie linie w tekście zawierające dane słowo i wypisze je sformatowane (szukane słowo w każdej linii jedno pod drugim oddzielone dwiema spacjami z lewej i prawej strony) razem z kontekstem przed i po wyniku wyszukiwania o długości n znaków. Szukane słowo oraz wartość n powinny być podawane jako argument programu (n domyślnie 15).
+
+head -250 grimms.txt | python concordance.py have 10
+
+Wyjście:
+
+me, I must  have  the whole 
+ he was to  have  the golden
+ live, and  have  the
+ you would  have  carried aw
+
+
+
+
+
+Zadanie 4 (10 pkt)
+
+Napisz program freq_letters.py, który zlicza liczbę wystąpień liter w tekście podanym na standardowym wejściu i wypisuje je w postaci par 'litera' 'liczba wystąpień' oddzielone znakiem tabulacji. Należy zliczyć duże litery A-Z oraz małe litery a-z z alfabetu ASCII. Wyjście powinno być posortowane wg. liter w kolejności alfabetycznej.
+
+head -200 grimms.txt | python freq_letters.py
+
+Wyjście (wartości nie muszą się zgadzać z powyższym poleceniem):
+
+A       839
+B       383
+C       251
+...
+
+
+
+
+
+Zadanie 5 (20 pkt)
+
+Napisz program diac_sets.py, który wypisze wszystkie takie zbiory wyrazów (jedna linia to jeden zbiór, wyrazy oddzielone spacją, kolejność nieistotna), w których wyrazy po usunięciu znaków diakrytycznych reprezentują to samo słowo (np. bąka, baka, baką). Program powinien czytać ze standardowego wejścia i pisać na standardowe wyjście. Przydatny może okazać się zestaw polskich liter diakrytyzowanych: 'ąćęłńóśźżĄĆĘŁŃÓŚŹŻ'.
+
+cat pantadeusz.txt | python diac_sets.py
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Zadanie 6 (20 pkt)
+
+Napisz program, który utworzy tablicę sufiksową danego tekstu oraz drugi program, który wykona szybkie wyszukiwanie podłańcuchów tego tekstu (pomoże Ci w tym artykuł Wikipedia.org - Suffix Array). Uwaga: nie trzeba stosować wyrafinowanych algorytmów do konstrukcji tablicy sufiksowej - wystarczy wygenerować sufiksy, posortować je i odczytać wartości tablicy sufiksowej.
+
+Przykładowe wywołanie programu budującego tablicę sufiksową:
+
+head -100 pantadeusz.txt | python build_sa.py > sa.txt
+
+Przykładowe wywołanie programu wyszukującego:
+
+python search_sa.py pantadeusz.txt sa.txt "Litw"
+
+Zwróć uwagę, że program wyszukujący powinien mieć dostęp zarówno do tekstu do przeszukania, jak i do tablicy sufiksowej. Pliki te mogą być podane jako argumenty wywołania skryptu (tak jak w powyższym przykładzie). Wyszukiwanie powinno być zrealizowane jako wyszukiwanie binarne, według algorytmu: Wikipedia.org - Suffix Array applications. 
