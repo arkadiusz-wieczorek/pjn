@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-# -*- coding: utf-8 -*-
 import sys
 
-# searching element to change
 def get_value_from_dict(search_word):
 	for changed_word, item in dictionary.items():
 		if item == search_word: return (changed_word)
-	pass
 
 while 1:
-	# inputs
 	rows=open(sys.argv[1]).readlines()
 	input_string = input()
 	input_list = input_string.split(" ")

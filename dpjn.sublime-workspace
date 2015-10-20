@@ -4,6 +4,66 @@
 		"selected_items":
 		[
 			[
+				"ra",
+				"raw_input"
+			],
+			[
+				"in",
+				"input_list"
+			],
+			[
+				"input",
+				"input_str"
+			],
+			[
+				"wor",
+				"words"
+			],
+			[
+				"wo",
+				"words"
+			],
+			[
+				"re",
+				"removed_newlines"
+			],
+			[
+				"coun",
+				"counter"
+			],
+			[
+				"form",
+				"fromkeys"
+			],
+			[
+				"cha",
+				"change_word"
+			],
+			[
+				"c",
+				"change_word"
+			],
+			[
+				"spl",
+				"splited"
+			],
+			[
+				"dic",
+				"dictionary"
+			],
+			[
+				"el",
+				"element"
+			],
+			[
+				"fr",
+				"freq_dic"
+			],
+			[
+				"d",
+				"dictionary"
+			],
+			[
 				"hang",
 				"handleMethodChange"
 			],
@@ -18,10 +78,6 @@
 			[
 				"sle",
 				"select"
-			],
-			[
-				"re",
-				"resource_id"
 			],
 			[
 				"res",
@@ -196,10 +252,6 @@
 				"cl	console.log"
 			],
 			[
-				"c",
-				"console	console.log()"
-			],
-			[
 				"ge",
 				"getOnChoosenResource"
 			],
@@ -336,10 +388,6 @@
 				"FieldFileType"
 			],
 			[
-				"in",
-				"inherit_from"
-			],
-			[
 				"pro",
 				"prototype"
 			],
@@ -412,10 +460,6 @@
 				"html_toc"
 			],
 			[
-				"el",
-				"else"
-			],
-			[
 				"crea",
 				"createTableOfContents"
 			],
@@ -470,41 +514,45 @@
 			[
 				"selec",
 				"selected_version"
-			],
-			[
-				"url",
-				"url_to_choosen_documentation"
-			],
-			[
-				"url_to",
-				"url_to_documentation"
-			],
-			[
-				"url_",
-				"url_to_documentation"
-			],
-			[
-				"line",
-				"line-height"
-			],
-			[
-				"lin",
-				"line-height"
-			],
-			[
-				"mar",
-				"margin-top"
-			],
-			[
-				"fon",
-				"font-size"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "2/ngrams.py",
+			"settings":
+			{
+				"buffer_size": 320,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2/diac_sets.py",
+			"settings":
+			{
+				"buffer_size": 591,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "2/test.py",
+			"settings":
+			{
+				"buffer_size": 66,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/arkadiusz/Desktop/zadania",
+			"settings":
+			{
+				"buffer_size": 3459,
+				"line_ending": "Unix"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Stylus/Stylus.sublime-build",
 	"build_system_choices":
 	[
 		[
@@ -522,15 +570,47 @@
 				"Packages/Python/Python.sublime-build",
 				""
 			]
+		],
+		[
+			[
+				[
+					"Packages/Stylus/Stylus.sublime-build",
+					""
+				],
+				[
+					"Packages/Stylus/Stylus.sublime-build",
+					"compress"
+				]
+			],
+			[
+				"Packages/Stylus/Stylus.sublime-build",
+				""
+			]
 		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "ja",
+		"last_filter": "pyt",
 		"selected_items":
 		[
+			[
+				"pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"pack",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"py",
+				"Set Syntax: Python"
+			],
 			[
 				"ja",
 				"Set Syntax: JavaScript"
@@ -538,14 +618,6 @@
 			[
 				"in",
 				"Package Control: Install Package"
-			],
-			[
-				"insta",
-				"Package Control: Install Package"
-			],
-			[
-				"pyt",
-				"Set Syntax: Python"
 			],
 			[
 				"j",
@@ -600,10 +672,6 @@
 				"Package Control: Remove Package"
 			],
 			[
-				"pack",
-				"Preferences: Browse Packages"
-			],
-			[
 				"react",
 				"Snippet: React: this.refs."
 			],
@@ -624,7 +692,7 @@
 				"Set Syntax: Shell Script (Bash)"
 			]
 		],
-		"width": 529.0
+		"width": 467.0
 	},
 	"console":
 	{
@@ -644,10 +712,44 @@
 	},
 	"expanded_folders":
 	[
-		"/home/arkadiusz/Documents/DPJN"
+		"/home/arkadiusz/Documents/DPJN",
+		"/home/arkadiusz/Documents/DPJN/1",
+		"/home/arkadiusz/Documents/DPJN/2"
 	],
 	"file_history":
 	[
+		"/home/arkadiusz/Documents/DPJN/2/grimms.txt",
+		"/home/arkadiusz/Documents/DPJN/2/freq_words.py",
+		"/home/arkadiusz/Documents/DPJN/2/test.py",
+		"/home/arkadiusz/Documents/DPJN/2/ngrams.py",
+		"/home/arkadiusz/Documents/DPJN/test.py",
+		"/home/arkadiusz/Documents/DPJN/1/bigarms.py",
+		"/home/arkadiusz/Documents/DPJN/1/freq_dic.py",
+		"/home/arkadiusz/Documents/DPJN/uniq_elements.py",
+		"/home/arkadiusz/Documents/DPJN/freq_dic.py",
+		"/home/arkadiusz/Documents/DPJN/suffixes.py",
+		"/home/arkadiusz/Documents/DPJN/bigarms.py",
+		"/home/arkadiusz/Documents/DPJN/enigma.py",
+		"/home/arkadiusz/Documents/DPJN/nieoczekiwana_podmiana.py",
+		"/home/arkadiusz/Desktop/substitusion.py",
+		"/home/arkadiusz/Documents/DPJN/testowy.py",
+		"/home/arkadiusz/Desktop/simple.py",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-5/DAUT/labs/daut-2014-s384071/TaskB46/run",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-5/DAUT/labs/daut-2014-s384071/TaskB37/run",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-5/DAUT/labs/daut-2014-s384071/TaskB23/run",
+		"/media/arkadiusz/7479088D089D8471/backup-ThinkpadX200-2/Dokumenty/WMI-5/DAUT/labs/daut-2014-s384071/TaskB01/run",
+		"/home/arkadiusz/Projects/citify/.gitignore",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/python3.sublime-build",
+		"/home/arkadiusz/Documents/DPJN/test",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/a.py",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/Ćwiczenia w domu",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/kodowanie",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/szyfrowanie",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/UtworzonyPlik",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/while",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/while.save",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/ZadanieDomowe",
+		"/media/arkadiusz/5EF01B556762A856/Dane do pozostawienia/Proxy/Python/SWOI/ZapisDoPliku",
 		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/rest-handler-method.jsx",
 		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/components/app.jsx",
 		"/home/arkadiusz/Projects/Sealious-development/sealious-channel-rest/docs/lib/utils.js",
@@ -721,6 +823,39 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">>>",
+			"		 ",
+			">>>",
+			"ę",
+			"n",
+			"words",
+			"('')",
+			"instance",
+			"std",
+			"x",
+			"s.",
+			"s",
+			"print",
+			"reductions",
+			"dict1",
+			"#",
+			"word",
+			"change_word",
+			"instance_of_list",
+			"'",
+			"OrderedDict",
+			"items",
+			">>>",
+			"trends",
+			"sequence",
+			"e",
+			"sequence",
+			"string",
+			"item",
+			"uniq_elements",
+			"nts((1,2,4,3,2,1,3,2))\nuniq_eleme",
+			"text",
+			",",
 			"handleMet",
 			"select_div",
 			"\" :",
@@ -815,40 +950,7 @@
 			"br",
 			"span",
 			"</span>",
-			"<br />",
-			"[i]",
-			"loaded_data",
-			"div",
-			"stringify",
-			"results",
-			"div",
-			"result",
-			"ul",
-			"parse",
-			"result",
-			"results",
-			"resource_type",
-			"resource_type_description",
-			"resource_body",
-			"li",
-			"<li>",
-			"li",
-			"span",
-			"div",
-			"console",
-			".name",
-			"name",
-			"structure",
-			"Structure",
-			"structure",
-			"resource",
-			"a",
-			"devices",
-			"dev_",
-			",",
-			"device_id",
-			"user_id",
-			"second_part_domain"
+			"<br />"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -867,8 +969,381 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "2/ngrams.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 320,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "2/diac_sets.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								300,
+								300
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "2/test.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/home/arkadiusz/Desktop/zadania",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3459,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2429,
+								2429
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/cobalt2.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -889,11 +1364,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -905,7 +1387,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 140.0
+		"height": 310.0
 	},
 	"output.find_results":
 	{
@@ -915,7 +1397,7 @@
 	{
 		"height": 0.0
 	},
-	"pinned_build_system": "",
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
 	"project": "dpjn.sublime-project",
 	"replace":
 	{
@@ -943,7 +1425,7 @@
 		[
 			[
 				"",
-				"~/Projects/sealious-github-io.sublime-project"
+				"~/Projects/citify.sublime-project"
 			],
 			[
 				"sealhu",

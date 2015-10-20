@@ -1,10 +1,11 @@
 #!/usr/bin/python
 from collections import OrderedDict
+import re
 def enigma(string):
-	
-	splited = string.split(" ")
-	ordered_list = list(OrderedDict.fromkeys(splited))
 
+	splited = re.sub('( {2,})+', ' ', string).split(" ")
+	
+	ordered_list = list(OrderedDict.fromkeys(splited))
 	output = []
 
 	for element in splited: 
