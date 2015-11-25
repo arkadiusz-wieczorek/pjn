@@ -5,10 +5,7 @@ name = input('Podaj nazwisko\n')
 
 classes = [["ski", "cki", "dzki"],	["ak", "ik", "yk"],	["ek"],	["ny"],	["ka"],	["owicz", "ewicz", "ach", "ól", "arz"],	["ur"],	["el"],	["ra"],	["an", "ąb"], ["oł", "eł", "ieł"], ["ia"], ["ień"], ["leń"]]
 
-codes = {	"ski": "s",	"cki": "c",	"dzki": "dz", "ak": "ak", "ik": "ik", "yk": "yk", "ek": "",
-	"ny": "n", "ka": "", "owicz": "owicz", "ewicz": "ewicz", "ach": "ach", "ól": "ól",
-	"arz": "arz", "ur": "ur", "el": "", "ra": "r", "an": "an", "ąb": "ąb", "oł": "o",
-	"eł": "", "ieł": "ie", "ia": "i", "ień": "", "leń": "le"	}
+codes = {"ski": "s","cki": "c",	"dzki": "dz", "ak": "ak", "ik": "ik", "yk": "yk", "ek": "",	"ny": "n", "ka": "", "owicz": "owicz", "ewicz": "ewicz", "ach": "ach",  "ól": "ól", "arz": "arz", "ur": "ur", "el": "", "ra": "r", "an": "an", "ąb": "ąb", "oł": "o","eł": "", "ieł": "ie", "ia": "i", "ień": "", "leń": "le"}
 cases = ['mianownik', 'dopelniacz', 'celownik', 'biernik', 'nadrzednik', 'miejscownik', 'wolacz']
 
 ends = [
