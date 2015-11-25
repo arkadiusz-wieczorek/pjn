@@ -1,0 +1,22 @@
+#Błędne/poprawne: 
+grep ^A errors.m2 > edits.txt
+
+#Procent:
+#echo "$A dada asda" | awk '{print NF}'
+
+
+grep '^A' errors.m2 | wc -l 		#liczy ilosc adnotacji = ilosc poprawionych slow
+
+# sed -e 'script script' index.html > index.html.tmp && mv index.html.tmp index.html
+sed -i 's/S //g' errors.m2
+
+# cat errors.m2 | grep '^S' > temp | sed -i 's/S //g' temp > cat temp | wc -w
+
+mv errors.m2 errors | grep ^S errors > temp | sed -i 's/S //g' temp | wc -w
+
+
+A = "$(grep "^A " errors.m2 | wc -l)"
+S_words = "$(grep "^S " errors.m2 | wc -w)"
+S_exists = "$(grep "^S " errors.m2 | wc -l)"
+RETURN = (A / (S_words - S_exists))*100
+echo "${RETURN}"

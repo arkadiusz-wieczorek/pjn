@@ -1,0 +1,1204 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cl",
+				"cl	console.log"
+			],
+			[
+				"su",
+				"surname_class"
+			],
+			[
+				"cla",
+				"classificationSurname"
+			],
+			[
+				"la",
+				"last_characters"
+			],
+			[
+				"sur",
+				"surname"
+			],
+			[
+				"s",
+				"surname"
+			],
+			[
+				"mi",
+				"miejscownik"
+			],
+			[
+				"ce",
+				"ce"
+			],
+			[
+				"ka",
+				"ka"
+			],
+			[
+				"cu",
+				"cutted_surname"
+			],
+			[
+				"sue",
+				"surname_from_user"
+			],
+			[
+				"in",
+				"index_of_end"
+			],
+			[
+				"for",
+				"for	JS - For loop"
+			],
+			[
+				"class",
+				"class_number"
+			],
+			[
+				"test",
+				"test_properties"
+			],
+			[
+				"ch",
+				"checkSurname"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"get",
+				"getDefaultProps"
+			],
+			[
+				"cwu",
+				"cwu	React: componentWillUpdate: fn(np, ns) { ... }"
+			],
+			[
+				"tok",
+				"token_value"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"locate",
+				"locatePosition"
+			],
+			[
+				"cw",
+				"cwu	React: componentWillUpdate: fn(np, ns) { ... }"
+			],
+			[
+				"Pl",
+				"Placetag"
+			],
+			[
+				"ec",
+				"encoded"
+			],
+			[
+				"repl",
+				"replace"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"repla",
+				"replace('&','%26"
+			],
+			[
+				"en",
+				"encoded"
+			],
+			[
+				"sh",
+				"shareViaTwitter"
+			],
+			[
+				"shareVi",
+				"shareViaGmail"
+			],
+			[
+				"sho",
+				"showCategoryIcon"
+			],
+			[
+				"shwo",
+				"showImage"
+			],
+			[
+				"show",
+				"showImage"
+			],
+			[
+				"lat",
+				"latitude"
+			],
+			[
+				"confirm",
+				"confirmButtonText"
+			],
+			[
+				"mod",
+				"model"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"found",
+				"found_coords"
+			],
+			[
+				"place",
+				"place_from_url"
+			],
+			[
+				"pla",
+				"place_from_url"
+			],
+			[
+				"set",
+				"setCenterViewFromLatLng"
+			],
+			[
+				"PL",
+				"Placetag"
+			],
+			[
+				"P",
+				"Placetag"
+			],
+			[
+				"rq",
+				"require"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"reg",
+				"register"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ref",
+				"ref=\"password"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"tag",
+				"tags_table"
+			],
+			[
+				"foun",
+				"found_places"
+			],
+			[
+				"res",
+				"result"
+			],
+			[
+				"PlacesV",
+				"PlacesViewByCategory"
+			],
+			[
+				"patt",
+				"pattern_pwd"
+			],
+			[
+				"regi",
+				"registrationError"
+			],
+			[
+				"ne",
+				"new_marker_position"
+			],
+			[
+				"lo",
+				"longitude"
+			],
+			[
+				"l",
+				"longitude"
+			],
+			[
+				"maer",
+				"marker"
+			],
+			[
+				"ci",
+				"clickable"
+			],
+			[
+				"remo",
+				"removeLayer"
+			],
+			[
+				"map",
+				"mapObject"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"bac",
+				"backgrounds"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"plac",
+				"place_data"
+			],
+			[
+				"can",
+				"cancel"
+			],
+			[
+				"new",
+				"new_height"
+			],
+			[
+				"or",
+				"original_width"
+			],
+			[
+				"new_",
+				"new_height"
+			],
+			[
+				"calb",
+				"callback"
+			],
+			[
+				"fn",
+				"function"
+			],
+			[
+				"use",
+				"user_is_logged"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"us",
+				"userIsLogged"
+			],
+			[
+				"tran",
+				"transitionTo('login"
+			],
+			[
+				"usr",
+				"username"
+			],
+			[
+				"Pla",
+				"PlacesViewByCategory"
+			],
+			[
+				"ge",
+				"geolocation"
+			],
+			[
+				"Plac",
+				"PlaceAdd"
+			],
+			[
+				"Place",
+				"PlaceFind"
+			],
+			[
+				"cate",
+				"category/:category"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"Rou",
+				"Route"
+			],
+			[
+				"fie",
+				"filename"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"re",
+				"ren	React: render: fn() { return ... }"
+			],
+			[
+				"pac",
+				"places"
+			],
+			[
+				"key",
+				"key_name"
+			],
+			[
+				"chan",
+				"changeAttributeValue"
+			],
+			[
+				"RO",
+				"Router"
+			],
+			[
+				"se",
+				"setIsUserLogged"
+			],
+			[
+				"tr",
+				"transitionTo"
+			],
+			[
+				"is",
+				"is_logged"
+			],
+			[
+				"Pace",
+				"PlaceAdd"
+			],
+			[
+				"u",
+				"updated_places"
+			],
+			[
+				"plca",
+				"place_id"
+			],
+			[
+				"plc",
+				"places"
+			],
+			[
+				"pl",
+				"place_id"
+			],
+			[
+				"getPlac",
+				"getPlaceById"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
+				"loca",
+				"localStorage"
+			],
+			[
+				"plcae",
+				"place_data"
+			],
+			[
+				"mode",
+				"modules"
+			],
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"c",
+				"console.	console.log()"
+			],
+			[
+				"rc",
+				"rcl	reactClass"
+			],
+			[
+				"cdm",
+				"cdm	React: componentDidMount: fn() { ... }"
+			],
+			[
+				"if",
+				"if	JS - if"
+			],
+			[
+				"sto",
+				"storeTags"
+			],
+			[
+				"f",
+				"function"
+			],
+			[
+				"cr",
+				"cwr	React: componentWillReceiveProps: fn(np) { ... }"
+			],
+			[
+				"com",
+				"componentWillMount"
+			],
+			[
+				"rea",
+				"readAndStorePlaces"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"Ro",
+				"Route"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Markdown Preview/Markdown.sublime-build",
+					""
+				],
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mvn.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Markdown Preview/Markdown.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/bash.sublime-build",
+					""
+				],
+				[
+					"Packages/User/mvn.sublime-build",
+					""
+				],
+				[
+					"Packages/User/python3.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "mar",
+		"selected_items":
+		[
+			[
+				"mar",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"che",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"set ma",
+				"Set Syntax: Markdown Light"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"set syntax mar",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"mark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"markdown pre",
+				"Markdown Preview: Open Markdown Cheat sheet"
+			],
+			[
+				"ma",
+				"GitHub Flavored Markdown: Preview"
+			],
+			[
+				"markdo",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"ste thml",
+				"Set Syntax: HTML"
+			],
+			[
+				"jtml",
+				"BracketHighlighter: Jump to Left Bracket"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"loca",
+				"Snippet: JS - localStorage"
+			],
+			[
+				"bab",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"babe",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"jas",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"babel",
+				"Babel Transform"
+			],
+			[
+				"jav",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rce",
+				"Snippet: reactClass"
+			],
+			[
+				"jsx",
+				"Set Syntax: JavaScript Next"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"set mar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"re",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"react",
+				"Snippet: React: this.refs."
+			],
+			[
+				"scs",
+				"Set Syntax: CSS"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"bash",
+				"Set Syntax: Shell Script (Bash)"
+			]
+		],
+		"width": 529.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/arkadiusz/Documents/DPJN/project1"
+	],
+	"file_history":
+	[
+		"/home/arkadiusz/Documents/DPJN/project1/index.js",
+		"/home/arkadiusz/Documents/DPJN/project1/index.py",
+		"/home/arkadiusz/Documents/DPJN/2/freq_letters.py",
+		"/home/arkadiusz/Projects/testing-react/document/document.md",
+		"/home/arkadiusz/Documents/engineering-work/document/document.md",
+		"/home/arkadiusz/Projects/testing-react/lib/components/test.jsx",
+		"/home/arkadiusz/Projects/testing-react/public/index.html",
+		"/home/arkadiusz/Projects/testing-react/lib/components/component-lifecycles.jsx",
+		"/home/arkadiusz/Projects/testing-react/document/tips",
+		"/home/arkadiusz/Projects/testing-react/public/style.css",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/places-view.jsx",
+		"/home/arkadiusz/Desktop/praca.html",
+		"/home/arkadiusz/Documents/DPRI/praca.md",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/MarkdownPreview.sublime-settings",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/Default (Linux).sublime-keymap",
+		"/home/arkadiusz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/home/arkadiusz/Projects/testing-react/public/test.json",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-add.jsx",
+		"/home/arkadiusz/Projects/Placetag/node_modules/sealious-www-server/use/channel.www_server.js",
+		"/home/arkadiusz/Projects/Placetag/public/css/style.css",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/routes.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/navigation.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/app.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/settings.jsx",
+		"/home/arkadiusz/Desktop/index.html",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/geolocation.jsx",
+		"/home/arkadiusz/Projects/Placetag/package.json",
+		"/home/arkadiusz/Projects/placetag-sealious-www-server/sealious-www-server/sealious-www-server.js",
+		"/home/arkadiusz/Projects/Placetag/node_modules/sealious-www-server/define/channel.www_server.js",
+		"/home/arkadiusz/Projects/Placetag/node_modules/sealious-www-server/sealious-www-server.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/settings-form.jsx",
+		"/home/arkadiusz/Projects/Placetag/public/css/leaflet.css",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/marker.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-share.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/model.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/events.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/modules/alerts.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/shared-box.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/shared-place.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/place-edit.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/marker-draggable.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/first-section.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/loading.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/container.jsx",
+		"/home/arkadiusz/Projects/Placetag/public/css/three-quarters.css",
+		"/home/arkadiusz/Projects/Placetag/public/index.html",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/registrationbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/public/_css/style.css",
+		"/home/arkadiusz/Desktop/recaptcha.html",
+		"/home/arkadiusz/.cache/.fr-U2M7p5/MANIFEST",
+		"/home/arkadiusz/Projects/Placetag/public/css/sweetalert.css",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/map.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/userbox.jsx",
+		"/home/arkadiusz/Documents/DPRI/captcha-secret.json",
+		"/home/arkadiusz/Projects/Placetag/build.sh",
+		"/home/arkadiusz/Projects/Placetag/main.js",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/home-page.jsx",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/terms-page.jsx",
+		"/home/arkadiusz/Projects/Placetag/.git/MERGE_MSG",
+		"/home/arkadiusz/Projects/Placetag/.gitignore",
+		"/home/arkadiusz/Projects/Placetag/_polygon/_css/style.css",
+		"/home/arkadiusz/Projects/Placetag/_polygon/registration.html",
+		"/home/arkadiusz/Projects/Placetag/_polygon/_index.html",
+		"/home/arkadiusz/Projects/Placetag/_polygon/terms.html",
+		"/home/arkadiusz/Projects/Placetag/src/js/components/loginbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/_polygon/css/style.css",
+		"/home/arkadiusz/Projects/testing-react/build.sh",
+		"/home/arkadiusz/Projects/testing-react/test.jsx",
+		"/home/arkadiusz/Projects/citify/lib/main.jsx",
+		"/home/arkadiusz/Projects/Placetag/app.config.json",
+		"/home/arkadiusz/Documents/DPRI/spis_tresci.md",
+		"/home/arkadiusz/Projects/Placetag/src/.jshintrc",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/captcha-secret.json",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/geolocation.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/routes.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/hashtags.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/app.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/places-view-by-hashtag.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/places-category.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/place-view.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/marker.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/place-edit.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/events.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/alerts.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/registrationbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/.gitignore",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/map.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/marker-draggable.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/place-add.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/marker-edit.jsx",
+		"/home/arkadiusz/Projects/Placetag/captcha-secret.json",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/homepage/css/style.css",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/homepage/_index.html",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/css/style.css",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/css/sweetalert.css",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/container.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/model.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/userbox.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/package.json",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/loginbox.jsx",
+		"/home/arkadiusz/Desktop/test.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/loading.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/auth.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/_login.html",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/places-view.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/navigation.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/places-view-by-category.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/place-share.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/main.js",
+		"/home/arkadiusz/Projects/Placetag/.git/COMMIT_EDITMSG",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/field_types/field_type.photo.js",
+		"/home/arkadiusz/Projects/hello-world/file.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/place-find.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/marker-found.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/geolocation-control.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/category-select.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/public/js/main.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/counter-places.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/marker-new.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/components/places-view-element.jsx",
+		"/home/arkadiusz/Projects/citify/lib/components/app.jsx",
+		"/home/arkadiusz/Projects/citify/lib/components/routes.jsx",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/field_types/field_type.category.js",
+		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/demo-storage.js",
+		"/home/arkadiusz/Desktop/stain.csv",
+		"/home/arkadiusz/Desktop/equipment.csv",
+		"/home/arkadiusz/Desktop/detergent.csv"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 106.0,
+		"where_history":
+		[
+			".",
+			"",
+			"src/js/*",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"''",
+			"],",
+			"''",
+			"''],",
+			"test",
+			"obj",
+			"b",
+			"przypadek",
+			",",
+			"object",
+			"Nowic",
+			"object",
+			"#####",
+			"Wywołanie",
+			"\n#####Wywołanie",
+			"#####",
+			"Witaj świecie",
+			"Mój pierwszy komponent",
+			"symbol",
+			"getInit",
+			">\n",
+			"code",
+			"ection",
+			"section10",
+			"Załącznik",
+			"sha1",
+			"request",
+			"5D92A0",
+			"name",
+			"var",
+			"str,",
+			"str",
+			"300",
+			"str,",
+			"myString",
+			"300",
+			"prepare",
+			"share",
+			"!import",
+			"this",
+			"auth",
+			"self",
+			"stretch",
+			"}",
+			"this",
+			"position",
+			"this.props.changeAttributeValue(\"mode\", 0);",
+			"NavigationBox",
+			"FirstSection",
+			"hsl",
+			"class",
+			"vg\">",
+			"class",
+			"icons",
+			"img/icons",
+			"mg/ic",
+			"img",
+			"css",
+			"registarion",
+			";\n",
+			"login",
+			"input",
+			"class",
+			"HelloMessage",
+			"br",
+			"this",
+			":",
+			"restore_prev_marker",
+			"pointe",
+			"NewMarkerComponent",
+			"change",
+			"ex: 3;",
+			"l-group: 1;",
+			"background-image",
+			"placetag-app/",
+			"></",
+			"sealious-team-member",
+			"navbar",
+			"class",
+			"page",
+			"\n.page",
+			".pa",
+			"margin",
+			"general",
+			"page-start",
+			"30b27b",
+			"#",
+			"30b27b",
+			"stretch",
+			"column2",
+			"#column2",
+			"l",
+			"html.static.features .create-account",
+			"html.static.features .create-account span",
+			"0 1",
+			"40CB90",
+			"000000",
+			"username",
+			"class",
+			"5398BB",
+			"removeP",
+			");\n",
+			"swal",
+			"dispa",
+			"swal",
+			"int",
+			"},",
+			"swal(",
+			"self",
+			"span",
+			"Dispatcher",
+			"user is logged",
+			" ",
+			"user is logged",
+			"  ",
+			">\n",
+			"view-places",
+			"hover",
+			"nav-menu",
+			"\");\n",
+			"ee",
+			"var",
+			"handler",
+			"var",
+			"Router.RouteHandler",
+			"routeH",
+			"Router.RouteHandler",
+			"DefaultRoute"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"komponentu",
+			"=\"\"></",
+			"count",
+			"a"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 38.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 140.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.markdown":
+	{
+		"height": 122.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dpjn_project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"route",
+				"src/js/components/routes.jsx"
+			],
+			[
+				"routes",
+				"src/js/components/routes.jsx"
+			],
+			[
+				"rout",
+				"src/js/components/routes.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/placetag.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 1051.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 182.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

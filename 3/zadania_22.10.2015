@@ -1,0 +1,142 @@
+Materiały
+
+https://eduwiki.wmi.amu.edu.pl/filipg/PJN-2015
+
+Deadline:
+
+Faza misji
+
+Punkty doświadczenia
+? / 0
+
+
+
+
+
+
+
+
+  Błędne/poprawne
+
+Podaj polecenie (potok), który zapisze do pliku edits.txt pary składające się z błędnego wyrazu i jego poprawnej wersji oddzielone znakiem tabulacji mając jako plik wejściowy korpus errors.m2. Należy wziąć pod uwagę poprawki będące wstawieniami lub usunięciami wyrazów, tzn. zarówno wyraz błędny, jak i wyraz poprawny mogą być puste (to jest uproszczenie).
+
+Plik errors.m2 do pobrania tutaj: https://eduwiki.wmi.amu.edu.pl/filipg/PJN-2015?action=AttachFile&do=get&target=errors.m2
+
+(Grupa C ma to też w repozytorium: textutils/errors.m2)
+
+Format pliku jest następujący: linie rozpoczynające się od S to zdania, poniżej których znajduje się zero lub więcej adnotacji błędów, każda w postaci:
+
+"A [spacja] pozycja [tabulacja] wyraz błędny => wyraz poprawny [tabulacja] typ błędu"
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 10
+
+
+
+
+
+
+  Procent
+
+Chcemy dowiedzieć się ile procentowo jest błędów w przykładowym korpusie errors.m2. W tym celu konieczne jest określenie (1) liczby błędnych wyrazów (możemy dla uproszczenia przyjąć, że adnotacje dotyczą zawsze pojedynczych wyrazów) oraz (2) liczby wszystkich słów (uwaga! litera S na początku każdego zdania nie jest słowem). Podaj dwa polecenia pozwalające uzyskać te liczby.
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 10
+
+
+
+
+
+
+
+
+  Typy
+
+Chcemy określić typy błędów i ich liczność w pliku errors.m2. Podaj dwa polecenia: (1) pierwsze, które do pliku categories.txt zapisze wszystkie typy błędów występujące w korpusie bez powtórzeń, (2) drugie, które zliczy liczbę wystąpień poszczególnych typów błędów i zapisze je do pliku categories.freq.txt.
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 10
+
+
+
+
+
+
+
+
+
+
+
+  Piętnaście
+
+Podaj dwa polecenia: (1) pierwsze, które znajdzie wszystkie lata wzmiankowane w korpusie errors.m2 i zapisze je do pliku years.txt; (2) drugie, znajdujące piętnaście najczęściej wzmiankowanych lat.
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 10
+
+
+
+
+
+
+
+
+
+  Lista frekwencyjna
+
+Podaj polecenie tworzące listę frekwencyjną słów w języku polskim na przykładzie pliku pantadeusz.txt (zob. poprzednie zajęcia) posortowaną wg. liczby wystąpień. Należy uwzględnić różną wielkość liter oraz fakt, że słowa mogą być oddzielone nie tylko samymi spacjami, lecz również znakami interpunkcyjnymi.
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 20
+
+
+
+
+
+
+
+
+
+  Pary
+
+Podaj polecenie lub polecenia, które wyszukają z pliku errors.m2 jak największą listę par składających się z frazy polskiej (fraza to ciąg składający się z jednego lub więcej słów) i odpowiadającemu jej tłumaczeniu w języku angielskim. Lista wynikowa powinna zostać zapisana do pliku plen.txt, a pary elementów oddzielone znakiem tabulacji. Wskazówka: angielskie zwroty często są poprzedzone skrótem ang..
+
+Deadline:
+
+22/10/2015 23:59
+
+Faza misji
+
+Punkty doświadczenia
+? / 20
+
