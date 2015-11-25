@@ -1,25 +1,18 @@
 #!/usr/bin/python3
 import re
 
-surname = input('Podaj nazwisko, które chcesz przetworzyć\n')
+name = input('Podaj nazwisko\n')
 
-classes = {
-	0: ["ki"], # 0: ["ski", "cki", "dzki"],
-	1: ["ak", "ik", "yk"],
-	2: ["ek"],
-	3: ["ny"],
-	4: ["ka"],
-	5: ["wicz"], # 5: ["owicz", "ewicz"],
-	6: ["ur"],
-	7: ["el"],
-	8: ["ra"],
-	9: ["an", "ąb"],
-	10: ["oł", "eł", "ieł"],
-	11: ["ia"]
-}
+classes = [["ski", "cki", "dzki"],	["ak", "ik", "yk"],	["ek"],	["ny"],	["ka"],	["owicz", "ewicz", "ach", "ól", "arz"],	["ur"],	["el"],	["ra"],	["an", "ąb"], ["oł", "eł", "ieł"], ["ia"], ["ień"], ["leń"]]
 
-ends = {
-	0: {
+codes = {	"ski": "s",	"cki": "c",	"dzki": "dz", "ak": "ak", "ik": "ik", "yk": "yk", "ek": "",
+	"ny": "n", "ka": "", "owicz": "owicz", "ewicz": "ewicz", "ach": "ach", "ól": "ól",
+	"arz": "arz", "ur": "ur", "el": "", "ra": "r", "an": "an", "ąb": "ąb", "oł": "o",
+	"eł": "", "ieł": "ie", "ia": "i", "ień": "", "leń": "le"	}
+cases = ['mianownik', 'dopelniacz', 'celownik', 'biernik', 'nadrzednik', 'miejscownik', 'wolacz']
+
+ends = [
+	{ #klasa 1
 		"mianownik": ['ki', 'cy', 'ka', 'kie'],
 		"dopelniacz": ['kiego', 'kich', 'kiej', 'kich'],
 		"celownik": ['kiemu', 'kim', 'kiej', 'kim'],
@@ -28,7 +21,7 @@ ends = {
 		"miejscownik": ['kim', 'kich', 'kiej', 'kich'],
 		"wolacz": ['ki', 'cy', 'ka', 'kie']
 	},
-	1: {
+	{ #klasa 2
 		"mianownik": ['', 'owie', ''],
 		"dopelniacz": ['a', 'ów', ''],
 		"celownik": ['owi', 'om', ''],
@@ -37,16 +30,16 @@ ends = {
 		"miejscownik": ['u', 'ach', ''],
 		"wolacz": ['u', 'owie', '']
 	},
-	2: {
+	{ #klasa 3
 		"mianownik": ['ek', 'kowie', 'ek'],
 		"dopelniacz": ['ka', 'ków', 'ek'],
-		"celownik": ['owi', 'kom', 'ek'],
+		"celownik": ['kowi', 'kom', 'ek'],
 		"biernik": ['ka', 'ków', 'ek'],
 		"nadrzednik": ['kiem', 'kami', 'ek'],
 		"miejscownik": ['ku', 'kach', 'ek'],
 		"wolacz": ['ku', 'kowie', 'ek']
 	},
-	3: {
+	{ #klasa 4
 		"mianownik": ['y', 'i', 'a'],
 		"dopelniacz": ['ego', 'ych', 'ej'],
 		"celownik": ['emu', 'ym', 'ej'],
@@ -55,7 +48,7 @@ ends = {
 		"miejscownik": ['ym', 'ych', 'ej'],
 		"wolacz": ['y', 'i', 'a']
 	},
-	4: {
+	{ #klasa 5
 		"mianownik": ['ka', 'kowie', 'ka'],
 		"dopelniacz": ['ki', 'ków', 'ki'],
 		"celownik": ['ce', 'kom', 'ce'],
@@ -64,7 +57,7 @@ ends = {
 		"miejscownik": ['ce', 'kach', 'ce'],
 		"wolacz": ['ka', 'kowie', 'ka']
 	},
-	5: {
+	{ #klasa 6
 		"mianownik": ['', 'owie', ''],
 		"dopelniacz": ['a', 'ów', ''],
 		"celownik": ['owi', 'om', ''],
@@ -73,7 +66,7 @@ ends = {
 		"miejscownik": ['u', 'ach', ''],
 		"wolacz": ['u', 'owie', '']
 	},
-	6: {
+	{ #klasa 7
 		"mianownik": ['', 'owie', ''],
 		"dopelniacz": ['a', 'ów', ''],
 		"celownik": ['owi', 'om', ''],
@@ -82,7 +75,7 @@ ends = {
 		"miejscownik": ['ze', 'ach', ''],
 		"wolacz": ['ze', 'owie', '']
 	},
-	7: {
+	{ #klasa 8
 		"mianownik": ['el', 'lowie', 'el'],
 		"dopelniacz": ['la', 'lów', 'el'],
 		"celownik": ['owi', 'lom', 'el'],
@@ -91,7 +84,7 @@ ends = {
 		"miejscownik": ['lu', 'lach', 'el'],
 		"wolacz": ['lu', 'lowie', 'el']
 	},
-	8: {
+	{ #klasa 9
 		"mianownik": ['a', 'owie', 'a'],
 		"dopelniacz": ['y', 'ów', 'y'],
 		"celownik": ['ze', 'om', 'ze'],
@@ -100,7 +93,7 @@ ends = {
 		"miejscownik": ['ze', 'ach', 'ze'],
 		"wolacz": ['o', 'owie', 'o']
 	},
-	9: {
+	{ #klasa 10
 		"mianownik": ['', 'owie', ''],
 		"dopelniacz": ['a', 'ów', ''],
 		"celownik": ['owi', 'om', ''],
@@ -109,7 +102,7 @@ ends = {
 		"miejscownik": ['ie', 'ach', ''],
 		"wolacz": ['ie', 'owie', '']
 	},
-	10: {
+	{ #klasa 11
 		"mianownik": ['ł', 'łowie', 'ł'],
 		"dopelniacz": ['ła', 'łów', 'ł'],
 		"celownik": ['łowi', 'łom', 'ł'],
@@ -118,7 +111,7 @@ ends = {
 		"miejscownik": ['le', 'łach', 'ł'],
 		"wolacz": ['le', 'łowie', 'ł']
 	},
-	11: {
+	{ #klasa 12
 		"mianownik": ['a', 'owie', 'a'],
 		"dopelniacz": ['', 'ów', ''],
 		"celownik": ['', 'om', ''],
@@ -127,59 +120,60 @@ ends = {
 		"miejscownik": ['', 'ach', ''],
 		"wolacz": ['o', 'owie', 'o']
 	},
-}
+	{ #klasa 13
+		"mianownik": ['ień', 'iowie', 'ień'],
+		"dopelniacz": ['nia', 'niów', 'ień'],
+		"celownik": ['niowi', 'niom', 'ień'],
+		"biernik": ['nia', 'niów', 'ień'],
+		"nadrzednik": ['niem', 'niami', 'ień'],
+		"miejscownik": ['niu', 'niach', 'ień'],
+		"wolacz": ['niu', 'niowie', 'ień']	
+	},
+	{ #klasa 14
+		"mianownik": ['ń', 'niowie', 'ń'],
+		"dopelniacz": ['nia', 'niów', 'ń'],
+		"celownik": ['niowi', 'niom', 'ń'],
+		"biernik": ['nia', 'niów', 'ń'],
+		"nadrzednik": ['niem', 'niami', 'ń'],
+		"miejscownik": ['niu', 'niach', 'ń'],
+		"wolacz": ['niu', 'niowie', 'ń']	
+	}
+]
 
-cases = ['mianownik', 'dopelniacz', 'celownik', 'biernik', 'nadrzednik', 'miejscownik', 'wolacz']
-
-def checkSurname(last_characters, surname):
-	regex = re.escape(last_characters) + r'$'
-	surname_match = re.search(regex, surname)
-	if surname_match != None: return (surname_match.group())
-	else: return None
-	pass
-
-def classificationSurname(surname):
+def getClassOfName(name):
 	for number in range(0,len(classes)):
-		print("number", number)
-		if (number in classes):
-			table_of_ends = classes[number] #from current class
+		table_of_ends = classes[number] #from current class
+		
+		for i in range(0,len(table_of_ends)):
 			
-			for i in range(0,len(table_of_ends)):
-				test = checkSurname(table_of_ends[i], surname)
-				
-				if(test != None):
-					test_properties = {
-						"match": [test, {"input":surname}],
-						"class_number": number
-					}
-					return test_properties
-				pass
+			regex = re.escape(table_of_ends[i]) + r'$'
+			check_name = re.search(regex, name)
+
+			if(check_name != None):
+				test_properties = {
+					"match": [check_name.group(), {"input":name}],
+					"class_number": number
+				}
+				return test_properties
 			pass
 		pass
 	pass
 
-def generateVariantsPerCases(surname_from_user):
-	record = classificationSurname(surname_from_user)
-	print('record', record)
-
-	surname_class = ends[record["class_number"]]
-	surname = record["match"][1]["input"]
+def showVariants(name_from_user):
+	record = getClassOfName(name_from_user)
+	name_class = ends[record["class_number"]]
+	name = record["match"][1]["input"]
 
 	for prop in range(0,len(cases)):
-		CASE = surname_class[cases[prop]]
-		cutted_surname = ""
-		if (CASE[0] != ""):
-			index_of_end = surname.rfind(CASE[0])
-			cutted_surname = surname[0:index_of_end]
-			pass
-		if (cutted_surname == ""):
-			cutted_surname = surname
-			pass
-		print('________')
+		CASE = name_class[cases[prop]]
+		end = record["match"][0]
+		theme = codes[end]
+		core_name = name[0:name.rfind(end)]+theme
+		print('\n')
 		print(cases[prop])
 		for i in range(0,len(CASE)):
-			print(cutted_surname + CASE[i])
+			print(core_name + CASE[i])
 			pass
 	pass
 
-generateVariantsPerCases(surname);
+showVariants(name);

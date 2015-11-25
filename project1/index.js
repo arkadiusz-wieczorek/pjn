@@ -1,3 +1,4 @@
+'use strict'
 var readline = require('readline');
 
 var rl = readline.createInterface({
@@ -6,182 +7,221 @@ var rl = readline.createInterface({
 });
 
 rl.question("Podaj nazwisko, które chcesz przetworzyć\n", function(surname) {
-	generateVariantsPerCases(surname);
+	surname = surname.toLowerCase();
+	surname = surname.charAt(0).toUpperCase() + surname.substr(1);
+	Module.generateVariantsPerCases(surname);
+	
 });
 
+process.on('uncaughtException', function(err) {
+	console.log("Podane nazwisko nie posiada odpowiedniej klasy")
+	process.exit()
+});
+
+var cases = [
+	'Mianownik  (Kto, co?)		→',
+	'Dopełniacz (Kogo, czego?)	→',
+	'Celownik (Komu, czemu?)		→',
+	'Biernik (Kogo, co?)		→',
+	'Narzędnik (Z kim?, Z czym?)	→',
+	'Miejscownik (O kim?, O czym?)	→',
+	'Wołacz (Hej!) 			→'
+];
 var classes = {
-	0: ["ki"], // 0: ["ski", "cki", "dzki"],
+	0: ["ski", "cki", "dzki"],
 	1: ["ak", "ik", "yk"],
 	2: ["ek"],
 	3: ["ny"],
 	4: ["ka"],
-	5: ["wicz"], // 5: ["owicz", "ewicz"],
+	5: ["owicz", "ewicz", "ach", "ól", "arz"],
 	6: ["ur"],
 	7: ["el"],
 	8: ["ra"],
 	9: ["an", "ąb"],
 	10: ["oł", "eł", "ieł"],
-	11: ["ia"]
-}
-
+	11: ["ia"],
+	12: ["ień"],
+	13: ["leń"]
+};
 var ends = {
 	0: {
-		"mianownik": ['ki', 'cy', 'ka', 'kie'],
-		"dopelniacz": ['kiego', 'kich', 'kiej', 'kich'],
-		"celownik": ['kiemu', 'kim', 'kiej', 'kim'],
-		"biernik": ['kiego', 'kich', 'ką', 'kich'],
-		"nadrzednik": ['kim', 'kimi', 'ką', 'kimi'],
-		"miejscownik": ['kim', 'kich', 'kiej', 'kich'],
-		"wolacz": ['ki', 'cy', 'ka', 'kie']
+		0: ['ki', 'ka', 'cy', 'kie'],
+		1: ['kiego', 'kiej', 'kich', 'kich'],
+		2: ['kiemu', 'kiej', 'kim', 'kim'],
+		3: ['kiego', 'ką', 'kich', 'kich'],
+		4: ['kim', 'ką', 'kimi', 'kimi'],
+		5: ['kim', 'kiej', 'kich', 'kich'],
+		6: ['ki', 'ka', 'cy', 'kie']
 	},
 	1: {
-		"mianownik": ['', 'owie', ''],
-		"dopelniacz": ['a', 'ów', ''],
-		"celownik": ['owi', 'om', ''],
-		"biernik": ['a', 'ów', ''],
-		"nadrzednik": ['iem', 'ami', ''],
-		"miejscownik": ['u', 'ach', ''],
-		"wolacz": ['u', 'owie', '']
+		0: ['', '', 'owie'],
+		1: ['a', '', 'ów'],
+		2: ['owi', '', 'om'],
+		3: ['a', '', 'ów'],
+		4: ['iem', '', 'ami'],
+		5: ['u', '', 'ach'],
+		6: ['u', '', 'owie']
 	},
 	2: {
-		"mianownik": ['ek', 'kowie', 'ek'],
-		"dopelniacz": ['ka', 'ków', 'ek'],
-		"celownik": ['owi', 'kom', 'ek'],
-		"biernik": ['ka', 'ków', 'ek'],
-		"nadrzednik": ['kiem', 'kami', 'ek'],
-		"miejscownik": ['ku', 'kach', 'ek'],
-		"wolacz": ['ku', 'kowie', 'ek']
+		0: ['ek', 'ek', 'kowie'],
+		1: ['ka', 'ek', 'ków'],
+		2: ['kowi', 'ek', 'kom'],
+		3: ['ka', 'ek', 'ków'],
+		4: ['kiem', 'ek', 'kami'],
+		5: ['ku', 'ek', 'kach'],
+		6: ['ku', 'ek', 'kowie']
 	},
 	3: {
-		"mianownik": ['y', 'i', 'a'],
-		"dopelniacz": ['ego', 'ych', 'ej'],
-		"celownik": ['emu', 'ym', 'ej'],
-		"biernik": ['ego', 'ych', 'ą'],
-		"nadrzednik": ['ym', 'ymi', 'ą'],
-		"miejscownik": ['ym', 'ych', 'ej'],
-		"wolacz": ['y', 'i', 'a']
+		0: ['y', 'a', 'i'],
+		1: ['ego', 'ej', 'ych'],
+		2: ['emu', 'ej', 'ym'],
+		3: ['ego', 'ą', 'ych'],
+		4: ['ym', 'ą', 'ymi'],
+		5: ['ym', 'ej', 'ych'],
+		6: ['y', 'a', 'i']
 	},
 	4: {
-		"mianownik": ['ka', 'kowie', 'ka'],
-		"dopelniacz": ['ki', 'ków', 'ki'],
-		"celownik": ['ce', 'kom', 'ce'],
-		"biernik": ['kę', 'ków', 'kę'],
-		"nadrzednik": ['ką', 'kami', 'ką'],
-		"miejscownik": ['ce', 'kach', 'ce'],
-		"wolacz": ['ka', 'kowie', 'ka']
+		0: ['ka', 'ka', 'kowie'],
+		1: ['ki', 'ki', 'ków'],
+		2: ['ce', 'ce', 'kom'],
+		3: ['kę', 'kę', 'ków'],
+		4: ['ką', 'ką', 'kami'],
+		5: ['ce', 'ce', 'kach'],
+		6: ['ka', 'ka', 'kowie']
 	},
 	5: {
-		"mianownik": ['', 'owie', ''],
-		"dopelniacz": ['a', 'ów', ''],
-		"celownik": ['owi', 'om', ''],
-		"biernik": ['a', 'ów', ''],
-		"nadrzednik": ['em', 'ami', ''],
-		"miejscownik": ['u', 'ach', ''],
-		"wolacz": ['u', 'owie', '']
+		0: ['', '', 'owie'],
+		1: ['a', '', 'ów'],
+		2: ['owi', '', 'om'],
+		3: ['a', '', 'ów'],
+		4: ['em', '', 'ami'],
+		5: ['u', '', 'ach'],
+		6: ['u', '', 'owie']
 	},
 	6: {
-		"mianownik": ['', 'owie', ''],
-		"dopelniacz": ['a', 'ów', ''],
-		"celownik": ['owi', 'om', ''],
-		"biernik": ['a', 'ów', ''],
-		"nadrzednik": ['em', 'ami', ''],
-		"miejscownik": ['ze', 'ach', ''],
-		"wolacz": ['ze', 'owie', '']
+		0: ['', '', 'owie'],
+		1: ['a', '', 'ów'],
+		2: ['owi', '', 'om'],
+		3: ['a', '', 'ów'],
+		4: ['em', '', 'ami'],
+		5: ['ze', '', 'ach'],
+		6: ['ze', '', 'owie']
 	},
 	7: {
-		"mianownik": ['el', 'lowie', 'el'],
-		"dopelniacz": ['la', 'lów', 'el'],
-		"celownik": ['owi', 'lom', 'el'],
-		"biernik": ['a', 'lów', 'el'],
-		"nadrzednik": ['em', 'lami', 'el'],
-		"miejscownik": ['lu', 'lach', 'el'],
-		"wolacz": ['lu', 'lowie', 'el']
+		0: ['el', 'el', 'lowie'],
+		1: ['la', 'el', 'lów'],
+		2: ['owi', 'el', 'lom'],
+		3: ['a', 'el', 'lów'],
+		4: ['em', 'el', 'lami'],
+		5: ['lu', 'el', 'lach'],
+		6: ['lu', 'el', 'lowie']
 	},
 	8: {
-		"mianownik": ['a', 'owie', 'a'],
-		"dopelniacz": ['y', 'ów', 'y'],
-		"celownik": ['ze', 'om', 'ze'],
-		"biernik": ['ę', 'ów', 'ę'],
-		"nadrzednik": ['ą', 'ami', 'ą'],
-		"miejscownik": ['ze', 'ach', 'ze'],
-		"wolacz": ['o', 'owie', 'o']
+		0: ['a', 'a', 'owie'],
+		1: ['y', 'y', 'ów'],
+		2: ['ze', 'ze', 'om'],
+		3: ['ę', 'ę', 'ów'],
+		4: ['ą', 'ą', 'ami'],
+		5: ['ze', 'ze', 'ach'],
+		6: ['o', 'o', 'owie']
 	},
 	9: {
-		"mianownik": ['', 'owie', ''],
-		"dopelniacz": ['a', 'ów', ''],
-		"celownik": ['owi', 'om', ''],
-		"biernik": ['a', 'ów', ''],
-		"nadrzednik": ['em', 'ami', ''],
-		"miejscownik": ['ie', 'ach', ''],
-		"wolacz": ['ie', 'owie', '']
+		0: ['', '', 'owie'],
+		1: ['a', '', 'ów'],
+		2: ['owi', '', 'om'],
+		3: ['a', '', 'ów'],
+		4: ['em', '', 'ami'],
+		5: ['ie', '', 'ach'],
+		6: ['ie', '', 'owie']
 	},
 	10: {
-		"mianownik": ['ł', 'łowie', 'ł'],
-		"dopelniacz": ['ła', 'łów', 'ł'],
-		"celownik": ['łowi', 'łom', 'ł'],
-		"biernik": ['ła', 'łów', 'ł'],
-		"nadrzednik": ['łem', 'łami', 'ł'],
-		"miejscownik": ['le', 'łach', 'ł'],
-		"wolacz": ['le', 'łowie', 'ł']
+		0: ['ł', 'ł', 'łowie'],
+		1: ['ła', 'ł', 'łów'],
+		2: ['łowi', 'ł', 'łom'],
+		3: ['ła', 'ł', 'łów'],
+		4: ['łem', 'ł', 'łami'],
+		5: ['le', 'ł', 'łach'],
+		6: ['le', 'ł', 'łowie']
 	},
 	11: {
-		"mianownik": ['a', 'owie', 'a'],
-		"dopelniacz": ['', 'ów', ''],
-		"celownik": ['', 'om', ''],
-		"biernik": ['ę', 'ów', 'ę'],
-		"nadrzednik": ['ą', 'ami', 'ą'],
-		"miejscownik": ['', 'ach', ''],
-		"wolacz": ['o', 'owie', 'o']
+		0: ['a', 'a', 'owie'],
+		1: ['', '', 'ów'],
+		2: ['', '', 'om'],
+		3: ['ę', 'ę', 'ów'],
+		4: ['ą', 'ą', 'ami'],
+		5: ['', '', 'ach'],
+		6: ['o', 'o', 'owie']
 	},
-}
+	12: {
+		0: ['ień', 'ień', 'niowie'],
+		1: ['nia', 'ień', 'niów'],
+		2: ['niowi', 'ień', 'niom'],
+		3: ['nia', 'ień', 'niów'],
+		4: ['niem', 'ień', 'niami'],
+		5: ['niu', 'ień', 'niach'],
+		6: ['niu', 'ień', 'niowie']
+	},
+	13: {
+		0: ['ń', 'ń', 'niowie'],
+		1: ['nia', 'ń', 'niów'],
+		2: ['niowi', 'ń', 'niom'],
+		3: ['nia', 'ń', 'niów'],
+		4: ['niem', 'ń', 'niami'],
+		5: ['niu', 'ń', 'niach'],
+		6: ['niu', 'ń', 'niowie']
+	}
+};
 
-function checkSurname(last_characters, surname) {
-	regex = new RegExp(last_characters + "$");
-	return surname.match(regex);
-}
+var Module = new function() {
+	this.cases = cases;
+	this.ends = ends;
+	this.classes = classes;
+	this.checkSurname = function(last_characters, surname) {
+		var pattern = new RegExp(last_characters + "$");
+		return surname.match(pattern);
+	}
+	this.classifySurname = function(surname) {
+		var self = this;
+		for (var number in self.classes) {
+			if (classes.hasOwnProperty(number)) {
+				var table_of_ends = self.classes[number]; //from current class
 
-function classificationSurname(surname) {
-	for (number in classes) {
-		console.log('number', number)
-		if (classes.hasOwnProperty(number)) {
-			var table_of_ends = classes[number]; //from current class
-
-			for (var i = 0; i < table_of_ends.length; i++) {
-				var test = checkSurname(table_of_ends[i], surname);
-
-				if (test !== null) {
-					var test_properties = {
-						match: test,
-						class_number: number
+				for (var i = 0; i < table_of_ends.length; i++) {
+					var test = self.checkSurname(table_of_ends[i], surname);
+					if (test !== null) {
+						return {
+							match: test,
+							class_number: number
+						}
 					}
-					return test_properties;
 				}
 			}
 		}
 	}
-}
+	this.generateVariantsPerCases = function(surname_from_user) {
+		var record = this.classifySurname(surname_from_user);
+		var surname_class = ends[record.class_number]
+		console.log('class →', record);
 
-function generateVariantsPerCases(surname_from_user) {
-	var record = classificationSurname(surname_from_user);
-	console.log('record', record)
+		if (record.class_number !== undefined) {
+			var surname = record.match.input;
+			for (var prop in surname_class) {
+				var current_case = surname_class[prop];
 
-	var surname_class = ends[record.class_number]
-	var surname = record.match.input;
+				var cutted_surname;
+				if (prop === "0" && current_case[0] !== "") {
+					var index_of_end = surname.lastIndexOf(current_case[0]);
+					cutted_surname = surname.substring(0, index_of_end);
+				}
+				if (cutted_surname === undefined) cutted_surname = surname;
 
-	for (prop in surname_class) {
-		var CASE = surname_class[prop];
-		var cutted_surname;
-		if (prop === "mianownik" && CASE[0] !== "") {
-			var index_of_end = surname.lastIndexOf(CASE[0])
-			cutted_surname = surname.substring(0, index_of_end)
-		}
-		if (cutted_surname === undefined) {
-			cutted_surname = surname;
-		}
-		console.log('________')
-		console.log(prop)
-		for (var i = 0; i < CASE.length; i++) {
-			console.log(cutted_surname + CASE[i])
+				var answer = "	"
+				for (var i = 0; i < current_case.length; i++) {
+					answer += cutted_surname + current_case[i] + " ";
+				}
+				if (answer !== undefined) console.log(cases[prop] + answer);
+
+			}
 		}
 	}
-}
+};

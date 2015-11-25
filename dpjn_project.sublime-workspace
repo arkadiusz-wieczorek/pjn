@@ -937,6 +937,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"1	s384071	",
 			"''",
 			"],",
 			"''",
@@ -1063,8 +1064,7 @@
 			"var",
 			"Router.RouteHandler",
 			"routeH",
-			"Router.RouteHandler",
-			"DefaultRoute"
+			"Router.RouteHandler"
 		],
 		"highlight": true,
 		"in_selection": false,
