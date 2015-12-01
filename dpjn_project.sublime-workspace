@@ -4,24 +4,52 @@
 		"selected_items":
 		[
 			[
+				"sur",
+				"surname"
+			],
+			[
+				"su",
+				"surname_from_user"
+			],
+			[
+				"clas",
+				"class_number"
+			],
+			[
+				"cu",
+				"current_case"
+			],
+			[
+				"an",
+				"answer"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
 				"cl",
 				"cl	console.log"
 			],
 			[
-				"su",
-				"surname_class"
+				"cur",
+				"current_case"
 			],
 			[
 				"cla",
-				"classificationSurname"
+				"class_number"
+			],
+			[
+				"co",
+				"correct_surname"
+			],
+			[
+				"owi",
+				"owicz"
 			],
 			[
 				"la",
 				"last_characters"
-			],
-			[
-				"sur",
-				"surname"
 			],
 			[
 				"s",
@@ -38,10 +66,6 @@
 			[
 				"ka",
 				"ka"
-			],
-			[
-				"cu",
-				"cutted_surname"
 			],
 			[
 				"sue",
@@ -66,10 +90,6 @@
 			[
 				"ch",
 				"checkSurname"
-			],
-			[
-				"fun",
-				"fun	Function"
 			],
 			[
 				"get",
@@ -494,31 +514,19 @@
 			[
 				"f",
 				"function"
-			],
-			[
-				"cr",
-				"cwr	React: componentWillReceiveProps: fn(np) { ... }"
-			],
-			[
-				"com",
-				"componentWillMount"
-			],
-			[
-				"rea",
-				"readAndStorePlaces"
-			],
-			[
-				"log",
-				"logout"
-			],
-			[
-				"Ro",
-				"Route"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "project1/index.py",
+			"settings":
+			{
+				"buffer_size": 5315,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
@@ -592,7 +600,7 @@
 	"command_palette":
 	{
 		"height": 400.0,
-		"last_filter": "mar",
+		"last_filter": "",
 		"selected_items":
 		[
 			[
@@ -788,6 +796,7 @@
 	],
 	"file_history":
 	[
+		"/home/arkadiusz/Documents/DPJN/project1/test.py",
 		"/home/arkadiusz/Documents/DPJN/project1/index.js",
 		"/home/arkadiusz/Documents/DPJN/project1/index.py",
 		"/home/arkadiusz/Documents/DPJN/2/freq_letters.py",
@@ -914,12 +923,11 @@
 		"/home/arkadiusz/Projects/Placetag/placetag-app/field_types/field_type.category.js",
 		"/home/arkadiusz/Projects/Placetag/placetag-app/src/js/modules/demo-storage.js",
 		"/home/arkadiusz/Desktop/stain.csv",
-		"/home/arkadiusz/Desktop/equipment.csv",
-		"/home/arkadiusz/Desktop/detergent.csv"
+		"/home/arkadiusz/Desktop/equipment.csv"
 	],
 	"find":
 	{
-		"height": 23.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -937,6 +945,65 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cutted_name",
+			"val",
+			"cases",
+			"',",
+			"'",
+			"consol",
+			"regex",
+			"generateVariantsPerCases",
+			"ends",
+			"width",
+			"height",
+			"Polygon",
+			"{",
+			": {",
+			"\n		",
+			"1: {\n",
+			": {",
+			"ends",
+			"CASE",
+			"' 	'",
+			"''",
+			"'ek'",
+			"],",
+			"['",
+			" ''",
+			"''",
+			"'el'",
+			"['",
+			"],",
+			"''",
+			"'ł'",
+			", 'n",
+			",'",
+			"',",
+			"'ień'",
+			"',",
+			"'ń'",
+			"wolacz",
+			"miejscownik",
+			"nadrzednik",
+			"biernik",
+			"celownik",
+			"dopelniacz",
+			"mianownik",
+			"classes",
+			":",
+			"classes",
+			"classificationName",
+			"surname",
+			"Surname",
+			"surname",
+			"Surname",
+			"surname",
+			"Surname",
+			"surname",
+			"correct_surname",
+			"ień",
+			"],",
+			" :",
 			"1	s384071	",
 			"''",
 			"],",
@@ -1005,66 +1072,7 @@
 			"br",
 			"this",
 			":",
-			"restore_prev_marker",
-			"pointe",
-			"NewMarkerComponent",
-			"change",
-			"ex: 3;",
-			"l-group: 1;",
-			"background-image",
-			"placetag-app/",
-			"></",
-			"sealious-team-member",
-			"navbar",
-			"class",
-			"page",
-			"\n.page",
-			".pa",
-			"margin",
-			"general",
-			"page-start",
-			"30b27b",
-			"#",
-			"30b27b",
-			"stretch",
-			"column2",
-			"#column2",
-			"l",
-			"html.static.features .create-account",
-			"html.static.features .create-account span",
-			"0 1",
-			"40CB90",
-			"000000",
-			"username",
-			"class",
-			"5398BB",
-			"removeP",
-			");\n",
-			"swal",
-			"dispa",
-			"swal",
-			"int",
-			"},",
-			"swal(",
-			"self",
-			"span",
-			"Dispatcher",
-			"user is logged",
-			" ",
-			"user is logged",
-			"  ",
-			">\n",
-			"view-places",
-			"hover",
-			"nav-menu",
-			"\");\n",
-			"ee",
-			"var",
-			"handler",
-			"var",
-			"Router.RouteHandler",
-			"routeH",
-			"Router.RouteHandler"
+			"restore_prev_marker"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1086,8 +1094,101 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "project1/index.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5315,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								703,
+								703
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content"
+							],
+							"color_scheme": "Packages/User/Color Highlighter/themes/Better_JS.tmTheme",
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -1196,7 +1297,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 182.0,
+	"side_bar_width": 78.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
